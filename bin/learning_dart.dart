@@ -1,5 +1,4 @@
-import 'package:learning_dart/learning_dart.dart' as learning_dart;
-
+import 'package:learning_dart/src/1-varibles/index.dart' show varibles;
 void main(List<String> arguments) {
-  print('Hello world: ${learning_dart.calculate()}!');
+  varibles();
 }
