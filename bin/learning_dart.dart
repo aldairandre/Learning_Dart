@@ -1,6 +1,4 @@
-import 'package:learning_dart/src/1-varibles/index.dart' show varibles;
-import 'package:learning_dart/src/4-user-input/index.dart' show inputs;
 void main(List<String> arguments) {
-  //varibles();
-  inputs();
+  print("Hello, world.");
+  print("This is my firt Dart repo, where i'm going to learn basic things about the Dart language");
 }
