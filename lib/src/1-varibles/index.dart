@@ -1,4 +1,4 @@
-varibles(){
+main(){
   String name = "Aldair";
   String address = "Angola";
   int age = 23;
