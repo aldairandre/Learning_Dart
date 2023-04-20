@@ -72,3 +72,43 @@ Dart program, which finds the greatest number among three numbers.
 ```
     dart lib/src/7-conditions/example_5.dart
 ```
+
+<br/>
+
+# ASSERT IN DART
+
+### Assert
+
+While coding, it is hard to find errors in big projects, so dart provide a assert method to check for the error. 
+
+It takes conditions as an argument. If the condition is true, nothing happens. 
+
+If a condition is false, it will raise an error.
+
+### Example How To Use Assert In Dart Program
+
+This example shows how you can use assert without a custom message.
+
+```
+    dart --enable-asserts lib/src/7-conditions/example_6.dart
+```
+
+### Example 2 How To Use Assert In Dart Program
+
+This example shows how you can use assert with a custom message.
+
+```
+    dart --enable-asserts lib/src/7-conditions/example_7.dart
+```
+
+### How to Run File In Assert Mode
+
+Use this command to run the dart file, which enables assert. 
+
+If you don’t use this, you will not be able to see the issue. 
+
+You can use this command below if you are running a dart file from the computer.
+
+```
+    dart --enable-asserts file_name.dart
+```
