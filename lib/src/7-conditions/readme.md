@@ -112,3 +112,58 @@ You can use this command below if you are running a dart file from the computer.
 ```
     dart --enable-asserts file_name.dart
 ```
+
+# SWITCH CASE IN DART
+
+### Switch Case In Dart
+
+In this tutorial, you will learn to use dart switch case to control your program’s flow. 
+
+A Switch case is used to execute the code block based on the condition.
+
+**How does switch-case statement work in dart**
+
+* The expression is evaluated once and compared with each case value.
+* If expression matches with case value1, the statements of case value1 are executed. Similarly, case value 2 will be executed if the expression matches case value2. If the expression matches the case value3, the statements of case value3 are executed.
+* The break keywords tell dart to exit the switch statement because the statements in the case block are finished.
+* If there is no match, default statements are executed.
+
+### Example Of Switch Statement
+
+This example prints the day name based on the numeric day of the week using a switch case.
+
+```
+    dart lib/src/7-conditions/example_8.dart
+```
+
+### Switch Case On Strings
+
+You can also use a switch case with strings. This program prints information based on weather value.
+
+```
+    dart lib/src/7-conditions/example_9.dart
+```
+
+### Switch Case On Enum
+
+An enum or enumeration is used for defining value according to you. 
+
+You can define your own type with a finite number of options. Here is the syntax for defining enum.
+
+### Syntax
+
+```
+enum enum_name { 
+    constant_value1, 
+    constant_value2, 
+    constant_value3 
+}
+```
+
+### Example of Switch Using Enum In Dart
+
+Enum plays well with switch statements. Let’s see an example using enum.
+
+```
+    dart lib/src/7-conditions/example_9.dart
+```
