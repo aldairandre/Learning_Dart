@@ -353,3 +353,54 @@ This program will print even numbers between 50 to 100 using while loop.
 ```
     dart lib/src/7-conditions/example_24.dart
 ```
+
+# DO WHILE LOOP IN DART
+### Do While Loop
+
+Do while loop is used to run a block of code multiple times. The loop’s body will be executed first, and then the condition is tested. The syntax of do while loop is:
+
+```
+do{
+    statement1;
+    statement2;
+    .
+    .
+    .
+    statementN;
+}while(condition);
+```
+
+* First, it runs statements, and finally, the condition is checked.
+* If the condition is true, the code inside {} is executed.
+* The condition is re-checked until the condition is false.
+* When the condition is false, the loop stops.
+
+### Example 1: To Print 1 To 10 Using Do While Loop
+
+```
+    dart lib/src/7-conditions/example_25.dart
+```
+
+### Example 2: To Print 10 To 1 Using Do While Loop
+
+```
+    dart lib/src/7-conditions/example_26.dart
+```         
+
+### Example 3: Display Sum of n Natural Numbers Using Do While Loop
+
+Here, the value of the total is 0 initially. Then, the do-while loop is iterated from i = 1 to 100.
+
+In each iteration, i is added to the total, and the value of i is increased by 1. Result is 1+2+3+….+99+100.
+
+```
+    dart lib/src/7-conditions/example_27.dart
+``` 
+
+### When The Condition Is False
+
+Let’s make one condition false and see the demo below. Hello got printed if the condition is false.
+
+```
+    dart lib/src/7-conditions/example_28.dart
+``` 
