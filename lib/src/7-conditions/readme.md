@@ -297,3 +297,59 @@ This program prints 1 to infinite because the condition is i>=1, which is always
 ```
     dart lib/src/7-conditions/example_20.dart
 ```
+
+# WHILE LOOP IN DART
+
+### While Loop
+
+In while loop, the loop’s body will run until and unless the condition is true. You must write conditions first before statements. This loop checks conditions on every iteration. 
+
+If the condition is true, the code inside {} is executed, if the condition is false, then the loop stops.
+
+Syntax
+
+```
+while(codition){
+    //stateman(s);
+    //increment (++) or decrement (--) operation;
+}
+```
+
+* A while loop evaluates the condition inside the parenthesis ().
+* If the condition is true, the code inside {} is executed.
+* The condition is re-checked until the condition is false.
+* When the condition is false, the loop stops.
+
+### Example 1: To Print 1 To 10 Using While Loop
+
+This program prints 1 to 10 using while loop.
+
+```
+    dart lib/src/7-conditions/example_21.dart
+```
+
+### Example 2: To Print 10 To 1 Using While Loop
+
+This program prints 10 to 1 using while loop.
+
+```
+    dart lib/src/7-conditions/example_22.dart
+```
+
+### Example 3: Display Sum of n Natural Numbers Using While Loop
+
+Here, the value of the total is 0 initially. Then, the while loop is iterated from i = 1 to 100. 
+
+In each iteration, i is added to the total, and the value of i is increased by 1. Result is 1+2+3+….+99+100.
+
+```
+    dart lib/src/7-conditions/example_23.dart
+```
+
+### Example 4: Display Even Numbers Between 50 to 100 Using While Loop
+
+This program will print even numbers between 50 to 100 using while loop.
+
+```
+    dart lib/src/7-conditions/example_24.dart
+```
