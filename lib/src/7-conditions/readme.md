@@ -167,3 +167,50 @@ Enum plays well with switch statements. Let’s see an example using enum.
 ```
     dart lib/src/7-conditions/example_9.dart
 ```
+
+# TERNARY OPERATOR IN DART
+
+### Ternary Operator
+The ternary operator is like if-else statement. This is a one-liner replacement for the if-else statement. 
+
+It is used to write a conditional expression, where based on the result of a boolean condition, one of the two values is selected.
+
+**Syntax:**
+
+```
+condition : exprIfTrue : exprIfFalse
+```
+
+### Example Using Ternary Operator
+
+This program finds greatest number between two numbers using ternary operator.
+
+```
+    dart lib/src/7-conditions/example_11.dart
+```
+
+### Example 2 Ternary Operator Dart
+
+If the selection value is 2 then it will set output as Apple otherwise, Banana.
+
+```
+    dart lib/src/7-conditions/example_12.dart
+```
+
+### Example 3 Ternary Operator Dart
+
+This is a dart program to print whether the person is a voter or not using a ternary operator.
+
+```
+    dart lib/src/7-conditions/example_13.dart
+```
+
+## Challenge
+
+Create an int variable age and initialize it with your age. 
+
+Write ternary statement to print “Teenager” if age is between 13 and 19 and “Not Teenager” if age is not between 13 and 19.
+
+```
+    dart lib/src/7-conditions/example_14.dart
+```
