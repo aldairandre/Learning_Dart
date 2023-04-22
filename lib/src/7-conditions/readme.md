@@ -404,3 +404,83 @@ Let’s make one condition false and see the demo below. Hello got printed if th
 ```
     dart lib/src/7-conditions/example_28.dart
 ``` 
+
+# BREAK AND CONTINUE IN DART
+
+### Dart Break and Continue
+In this tutorial, you will learn about the break and continue in dart. While working on loops, we need to skip some elements or terminate the loop immediately without checking the condition. In such a situation, you can use the break and continue statement.
+
+### Break Statement
+
+Sometimes you will need to break out of the loop immediately without checking the condition. You can do this using break statement.
+
+The break statement is used to exit a loop. It stops the loop immediately, and the program’s control moves outside the loop. Here is syntax of break:
+
+```
+break;
+```
+
+### Example 1: Break In Dart For Loop
+
+Here, the loop condition is true until the value of i is less than or equal to 10. However, the break says to go outside the loop when the value of i becomes 5.
+
+```
+   dart lib/src/7-conditions/example_29.dart 
+```
+
+### Example 2: Break In Dart Negative For Loop
+
+Here, the loop condition is true until the value of i is more than or equal to 1. However, the break says to go outside the loop when the value of i becomes 7.
+
+```
+   dart lib/src/7-conditions/example_30.dart 
+```
+
+### Example 3: Break In Dart While Loop
+
+Here, this while loop condition is true until the value of i is less than or equal to 10. However, the break says to go outside the loop when the value of i becomes 5.
+
+```
+   dart lib/src/7-conditions/example_31.dart 
+```
+
+### Example 4: Break In Switch Case
+
+As we already learn in dart switch case, it is important to add break keyword in switch statement. This example prints the month name based on the number of the month using a switch case.
+
+```
+   dart lib/src/7-conditions/example_32.dart 
+```
+
+# Continue Statement
+
+Sometimes you will need to skip an iteration for a specific condition. You can do this utilizing continue statement.
+
+The continue statement skips the current iteration of a loop. It will bypass the statement of the loop. It does not terminate the loop but rather continues with the next iteration. Here is the syntax of continue statement:
+
+```
+continue;
+```
+
+### Example 1: Continue In Dart
+
+Here, the loop condition is true until the value of i is less than or equal to 10. However, the continue says to go to the next iteration of the loop when the value of i becomes 5.
+
+
+```
+   dart lib/src/7-conditions/example_33.dart 
+```
+
+### Example 2: Continue In For Loop Dart
+
+Here, the loop condition is true until the value of i is more than or equal to 1. However, the continue says to go to the next iteration of the loop when the value of i becomes 4.
+
+
+```
+   dart lib/src/7-conditions/example_34.dart 
+```
+
+### Example 3: Continue In Dart While Loop
+
+Here, this while loop condition is true until the value of i is less than or equal to 10. However, the continue says to go to the next iteration of the loop when the value of i becomes 5.
+
